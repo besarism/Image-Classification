@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Image Classification
 //
-//  Created by Test on 8/26/18.
+//  Created by B3 on 8/26/18.
 //  Copyright © 2018 B3. All rights reserved.
 //
 

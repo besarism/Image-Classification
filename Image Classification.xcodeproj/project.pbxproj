@@ -12,6 +12,7 @@
 		5246D9652132EDC00041C307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5246D9632132EDC00041C307 /* Main.storyboard */; };
 		5246D9672132EDC10041C307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5246D9662132EDC10041C307 /* Assets.xcassets */; };
 		5246D96A2132EDC10041C307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5246D9682132EDC10041C307 /* LaunchScreen.storyboard */; };
+		5246D9722132F1270041C307 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5246D9712132F1270041C307 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5246D9662132EDC10041C307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5246D9692132EDC10041C307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5246D96B2132EDC10041C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5246D9712132F1270041C307 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5246D95E2132EDC00041C307 /* Image Classification */ = {
 			isa = PBXGroup;
 			children = (
+				5246D9712132F1270041C307 /* GoogLeNetPlaces.mlmodel */,
 				5246D95F2132EDC00041C307 /* AppDelegate.swift */,
 				5246D9612132EDC00041C307 /* ViewController.swift */,
 				5246D9632132EDC00041C307 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				5246D9622132EDC00041C307 /* ViewController.swift in Sources */,
 				5246D9602132EDC00041C307 /* AppDelegate.swift in Sources */,
+				5246D9722132F1270041C307 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
